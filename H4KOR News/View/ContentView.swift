@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
 //    testing comment on remote
     @ObservedObject var networkManager = NetworkManager()
-    
+//    testin on read me
     var body: some View {
         NavigationView {
             List(networkManager.posts) { post in
