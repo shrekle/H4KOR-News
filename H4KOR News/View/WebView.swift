@@ -10,7 +10,7 @@ import WebKit
 import SwiftUI
 
 struct WebView: UIViewRepresentable {
-    //    bube test----------------------------------------------------------------------------------------------------------
+
     let urlString: String?
     
     func makeUIView(context: Context) -> WKWebView {
