@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+//    testing comment on remote
     @ObservedObject var networkManager = NetworkManager()
     
     var body: some View {
